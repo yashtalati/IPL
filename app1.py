@@ -38,7 +38,7 @@ def load_page(page):
                  'Gujarat Titans',
                  'Lucknow Super Giants']
 
-        cities = ['Ahmedabad', 'Kolkata', 'Mumbai', 'Delhi', 'Chennai', 'Hyderabad',
+        cities = ['Ahmedabad', 'Kolkata', 'Mumbai', 'Lucknow', 'Delhi', 'Chennai', 'Hyderabad',
                   'Mohali', 'Jaipur', 'Bangalore']
 
         st.markdown(
@@ -144,7 +144,7 @@ def load_page(page):
 
         wickets_fell = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-        cities = ['Ahmedabad', 'Kolkata', 'Mumbai', 'Delhi', 'Chennai', 'Hyderabad',
+        cities = ['Ahmedabad', 'Kolkata', 'Mumbai', 'Lucknow', 'Delhi', 'Chennai', 'Hyderabad',
                   'Mohali', 'Jaipur', 'Bangalore']
 
         pipe = pickle.load(open('p2.pkl', 'rb'))
