@@ -8,7 +8,7 @@ def load_page(page):
         import pandas as pd
         import base64
 
-        pipe = pickle.load(open('p1.pkl', 'rb'))
+        pipe = pickle.load(open('pp1.pkl', 'rb'))
 
         def add_bg_from_local(image_file):
             with open(image_file, "rb") as image_file:
